@@ -68,3 +68,19 @@ button:hover {
             0 0 16px #0ea5e9;
     }
 }
+.contatos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icone {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.icone:hover {
+    transform: scale(1.2);
+}
