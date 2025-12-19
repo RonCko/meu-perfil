@@ -1,86 +1,49 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #0f172a;
-    color: #f1f5f9;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.perfil {
-    background-color: #1e293b;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.container {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-.avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.result {
+  margin-bottom: 20px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #0ea5e9;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0284c7;
-}
-.neon {
-    color: #9b85d4;
-    text-shadow:
-        0 0 5px #9b85d4,
-        0 0 10px #9b85d4,
-        0 0 20px #9b85d4,
-        0 0 40px #9b85d4;
-    font-size: 36px;
-    font-weight: bold;
-    animation: piscar 1.5s infinite;
-}
-
-@keyframes piscar {
-    0%, 100% {
-        opacity: 1;
-        text-shadow:
-            0 0 5px #0ea5e9,
-            0 0 10px #0ea5e9,
-            0 0 20px #0ea5e9,
-            0 0 40px #0ea5e9;
-    }
-    50% {
-        opacity: 0.6;
-        text-shadow:
-            0 0 2px #0ea5e9,
-            0 0 4px #0ea5e9,
-            0 0 8px #0ea5e9,
-            0 0 16px #0ea5e9;
-    }
-}
-.contatos {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.icone {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease;
-}
-
-.icone:hover {
-    transform: scale(1.2);
+  background-color: #ff4500;
 }
